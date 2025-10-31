@@ -1,8 +1,10 @@
 #  Zerodha Kite Dashboard Clone
 
 ## Project Info
-**Live** :  ```https://tradepro-khaki.vercel.app/```
-[https://tradepro-khaki.vercel.app/]([https://github.com/imvishalksingh/Kite-clone](https://tradepro-khaki.vercel.app/))
+**Live** :  
+[https://tradepro-khaki.vercel.app/](https://tradepro-khaki.vercel.app/)
+```https://tradepro-khaki.vercel.app/```
+<br>
 **GitHub Repository**: [https://github.com/imvishalksingh/Kite-clone](https://github.com/imvishalksingh/Kite-clone)
 
 A modern, responsive **Zerodha Kite Dashboard Clone** built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
