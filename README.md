@@ -1,73 +1,89 @@
-# Welcome to your Lovable project
+#  Zerodha Kite Dashboard Clone
 
-## Project info
+## Project Info
 
-**URL**: https://lovable.dev/projects/2704223b-53b6-4635-8276-f2439f87bac3
+**GitHub Repository**: [https://github.com/imvishalksingh/Kite-clone](https://github.com/imvishalksingh/Kite-clone)
 
-## How can I edit this code?
+A modern, responsive **Zerodha Kite Dashboard Clone** built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn/ui**.  
+This project replicates the core layout, analytics cards, and live market-like experience of Zerodha’s trading dashboard — designed for learning, portfolio visualization, and UI experimentation.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2704223b-53b6-4635-8276-f2439f87bac3) and start prompting.
+##  Features
 
-Changes made via Lovable will be committed automatically to this repo.
+-  **Real-time Dashboard Layout**
+  - Displays positions, funds, and order details dynamically.
+-  **Live PnL (Profit & Loss) Tracking**
+  - Automatic calculation of total PnL and percentage changes.
+-  **Reusable Components**
+  - Built with modular React components for scalability.
+-  **Modern UI/UX**
+  - Styled with Tailwind CSS & shadcn/ui for a clean, elegant look.
+-  **Vite-Powered**
+  - Fast refresh, optimized build, and lightning-fast development.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+##  Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Technology | Purpose |
+|-------------|----------|
+| **Vite** | Build tool and dev server |
+| **React** | UI library |
+| **TypeScript** | Type-safe development |
+| **Tailwind CSS** | Utility-first styling |
+| **shadcn/ui** | Prebuilt, accessible UI components |
 
-Follow these steps:
+---
+
+##  Installation & Setup
+
+Make sure you have **Node.js** and **npm** (or **pnpm/yarn**) installed.
+
+### 1️ Clone the Repository
 
 ```sh
 # Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+git clone https://github.com/imvishalksingh/Kite-clone.git
 
 # Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+cd Kite-clone
 
 # Step 3: Install the necessary dependencies.
-npm i
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server with auto-reloading and instant preview.
 npm run dev
+
 ```
 
-**Edit a file directly in GitHub**
+###Your app will be available at
+```
+ http://localhost:5173
+ (by default)
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Project Structure
+```
+Kite-clone/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── hooks/           # Custom React hooks
+│   ├── store/           # State management (e.g., trading data)
+│   ├── pages/           # Main dashboard and related screens
+│   ├── App.tsx          # App root component
+│   └── main.tsx         # Entry point
+├── public/              # Static assets
+├── index.html
+├── tailwind.config.js
+├── tsconfig.json
+├── package.json
+└── vite.config.ts
+```
 
-**Use GitHub Codespaces**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2704223b-53b6-4635-8276-f2439f87bac3) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Contact
+Vishal Kumar
+Mail -imvishalksingh@gmail.com
+GitHub Profile
